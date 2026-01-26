@@ -8,10 +8,13 @@ The **Poisson equation** is a fundamental partial differential equation (PDE) us
 
 In two dimensions, the equation for electric potential  is:
 
+\begin{equation}
+    \nabla^2 V = \frac{\partial^2 V}{\partial x^2} + \frac{\partial^2 V}{\partial y^2} = -\frac{\rho(x, y)}{\epsilon}
+\end{equation}
 
 Where:
 
-* ** (The Laplacian):** Represents the "curvature" or spatial second derivative of the potential.
+* **(The Laplacian):** Represents the "curvature" or spatial second derivative of the potential.
 * **:** The charge density (the source). In this project, we use a specific distribution: .
 * **:** The permittivity of the medium (assumed to be 1.0 for simplicity).
 
