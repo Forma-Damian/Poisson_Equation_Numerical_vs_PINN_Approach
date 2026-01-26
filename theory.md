@@ -8,9 +8,7 @@ The **Poisson equation** is a fundamental partial differential equation (PDE) us
 
 In two dimensions, the equation for electric potential  is:
 
-\begin{equation}
-    \nabla^2 V = \frac{\partial^2 V}{\partial x^2} + \frac{\partial^2 V}{\partial y^2} = -\frac{\rho(x, y)}{\epsilon}
-\end{equation}
+$\frac{\partial^{2}V}{\partial x^{2}} + \frac{\partial^{2}V}{\partial y^{2}} = -\frac{\rho(x,y)}{\epsilon}$$
 
 Where:
 
